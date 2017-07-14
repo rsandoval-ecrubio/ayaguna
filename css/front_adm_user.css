@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#newUser {
+	width: 540px;
+	background-color: #CAE1FF;
+	padding: 8px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	border-radius: 10px;
+	font-family: Calibri, "Calibri Bold Caps";
+	font-size: 12px;
+}
+caption {
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+	color: #006AD5;
+}
+
+h1 {
+	font-size: 24px;
+	color: #006AD5;
+}
+a {
+	font-family: Calibri, "Calibri Bold Caps";
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #004A00;
+}
+th {
+	background-color: #6495ED;
+	font-family: Calibri, "Calibri Bold Caps";
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+	padding: 2px;
+	border: 1px solid #A2B5CD;
+}
+td {
+	font-family: Calibri, "Calibri Bold Caps";
+	font-size: 12px;
+}
+
+#niveles {
+	border: 1px solid #DBEFF5;
+}
+#niveles tr td {
+	border: 1px solid #CFE2F5;
+}
+
+#dbs {
+	border: 1px solid #DBEFF5;
+}
+#dbs tr td {
+	border: 1px solid #CFE2F5;
+}.obligatorio {
+	font-size: 14px;
+	font-weight: bold;
+	color: #F00;
+}

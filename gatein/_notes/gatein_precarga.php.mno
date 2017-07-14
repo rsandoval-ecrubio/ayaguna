@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_linea" value="name:id;datatype:int,name:nombre;datatype:string" />
+	<infoitem key="UD_tipo" value="name:id;datatype:int,name:tipo;datatype:string" />
+	<infoitem key="UD_consig" value="name:id;datatype:int,name:nombre;datatype:string" />
+	<infoitem key="UD_pretoinv" value="name:id;datatype:int,name:linea;datatype:string,name:buque;datatype:string,name:viaje;datatype:string,name:equipo;datatype:string,name:tipo;datatype:string,name:consig;datatype:string" />
+	<infoitem key="UD_patio" value="name:id;datatype:int,name:patio;datatype:string" />
+</info>

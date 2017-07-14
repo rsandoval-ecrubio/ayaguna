@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_line" value="name:id;datatype:int,name:nombre;datatype:string" />
+	<infoitem key="UD_re20" value="name:tipo;datatype:string,name:cantidad;datatype:int" />
+	<infoitem key="UD_re40" value="name:tipo;datatype:string,name:cantidad;datatype:int" />
+</info>

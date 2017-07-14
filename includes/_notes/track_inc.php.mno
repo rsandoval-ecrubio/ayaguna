@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_track" value="name:id;datatype:int,name:nombre;datatype:string,name:contenedor;datatype:string,name:tipo;datatype:string,name:fdb;datatype:date,name:frd;datatype:date,name:eir_r;datatype:int,name:status;datatype:int,name:condicion;datatype:int,name:obs;datatype:blob,name:patio;datatype:string,name:consignatario;datatype:string,name:fdespims;datatype:date,name:eir_d;datatype:int,name:status_d;datatype:int,name:booking;datatype:string,name:c;datatype:int" />
+</info>

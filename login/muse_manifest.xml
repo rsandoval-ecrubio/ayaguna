@@ -1,0 +1,19 @@
+<manifest alg="2" build="314" opt="true" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="484634295"/>
+    <file name="master_a-p_gina-maestra.css" crc="3914288965" ref="index"/>
+    <file name="index.css" crc="352882612" ref="index"/>
+    <file name="iefonts_index.css" crc="4045034035" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="contenedor.png" crc="4022884910" ref="index"/>
+    <file name="logofw.png" crc="182125211" ref="index"/>
+  </folder>
+  <file name="index.html" crc="296969000" mt="1384372837657" redirect="true"/>
+</manifest>

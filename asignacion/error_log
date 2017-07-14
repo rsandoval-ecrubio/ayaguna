@@ -1,0 +1,4 @@
+[05-Jun-2017 17:14:54 America/Caracas] PHP Warning:  mysql_connect(): Too many connections in /home/appstc/public_html/ayaguna/Connections/conexion.php on line 26
+[05-Jun-2017 17:14:54 America/Caracas] PHP Fatal error:  Too many connections in /home/appstc/public_html/ayaguna/Connections/conexion.php on line 26
+[05-Jun-2017 17:14:59 America/Caracas] PHP Warning:  mysql_connect(): Too many connections in /home/appstc/public_html/ayaguna/Connections/conexion.php on line 26
+[05-Jun-2017 17:14:59 America/Caracas] PHP Fatal error:  Too many connections in /home/appstc/public_html/ayaguna/Connections/conexion.php on line 26

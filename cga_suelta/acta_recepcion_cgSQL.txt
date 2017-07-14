@@ -1,0 +1,23 @@
+CREATE TABLE `acta_recepcion_cg` (
+	`idacta` INT(6) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
+	`fch_hora` DATETIME NOT NULL,
+	`nom_ape_chfer` VARCHAR(255) NOT NULL,
+	`cedula` DECIMAL(10,0) NOT NULL,
+	`transporte` VARCHAR(255) NOT NULL,
+	`placa` VARCHAR(45) NOT NULL,
+	`fact_pack` VARCHAR(45) NULL DEFAULT NULL,
+	`consignatario` INT(4) UNSIGNED NOT NULL,
+	`BL` VARCHAR(50) NOT NULL,
+	`origen` VARCHAR(255) NOT NULL,
+	`linea` INT(4) NOT NULL,
+	`buque` INT(4) NOT NULL,
+	`viaje` INT(8) NOT NULL,
+	`observ` MEDIUMTEXT NULL,
+	`operador` VARCHAR(255) NOT NULL,
+	`anulado` INT(1) NOT NULL,
+	`codigo_b_actas` INT(12) UNSIGNED ZEROFILL NOT NULL DEFAULT '000000000000',
+	PRIMARY KEY (`idacta`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+ROW_FORMAT=DEFAULT

@@ -1,0 +1,2 @@
+[07-Feb-2017 01:59:17 America/Caracas] PHP Warning:  mysql_connect(): No such file or directory in /home/appstc/public_html/ayaguna/Connections/conexion.php on line 26
+[07-Feb-2017 01:59:17 America/Caracas] PHP Fatal error:  No such file or directory in /home/appstc/public_html/ayaguna/Connections/conexion.php on line 26

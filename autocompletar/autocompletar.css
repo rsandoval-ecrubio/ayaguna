@@ -1,0 +1,7 @@
+
+#criterio{ width: 200px; float: left; }
+
+
+#opciones{ display: none; width: 200px; padding-top: 20px; border: solid thin #DDDDDD; position: fixed; }
+#opciones a{ display: block; width:200px; height: 25px; color: #000000; padding-top:5px; padding-left: 3px; text-decoration:none; }
+#opciones a:hover{ font-weight: bold; background: #cdcdcd; }

@@ -1,0 +1,45 @@
+@charset utf-8;
+body{font-family:Verdana, Geneva, sans-serif;margin:0}
+#pietabla{font-size:12px}
+header{height:70px}
+a{color:#4682B4;font-size:12px;text-decoration:none}
+h2{color:#3D59AB;font-family:Verdana, Geneva, sans-serif;font-size:16px;font-weight:400;text-align:center}
+caption{color:#6495ED;font-size:12px;padding:8px;text-align:center}
+nav{margin-top:0}
+#wrapper{background:#FFF;margin:0 auto;min-height:85%;width:100%}
+#track{margin:0 auto;width:400px}
+#trackresult{margin:0 auto;width:75%}
+#trackresults th{background-color:#B0C4DE;color:#006;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-weight:400}
+#trackresults tr td{border:1px solid #999}
+#gatein{-moz-border-radius:20px;-moz-box-shadow:0 0 8px #444;-webkit-border-radius:20px;-webkit-box-shadow:0 0 8px #444;background:#eee;border:1px solid #e1e1e1;border-radius:20px;margin:20px auto 10px;padding:30px;width:800px}
+legend{color:#445668;font-size:14px;font-weight:700;text-transform:uppercase}
+label{color:#104E8B;font-size:14px;margin:5px 25px 10px 5px;padding:2px;text-align:left;vertical-align:middle}
+input{-moz-border-radius:5px;-moz-box-shadow:0 1px 0 #C6E2FF;-webkit-border-radius:5px;-webkit-box-shadow:0 1px 0 #C6E2FF2;background:0 color-stop(100%,#9FB6CD));background-color:#E6E6FA;border-radius:5px;color:#006;font-family:sans-serif;font-size:14px;height:30px;margin:5px 5px 10px 0;padding:2px;text-shadow:0 -1px 0 #C6E2FF;text-transform:uppercase;width:140px}
+input[type=text]{margin-right:30px}
+.inputValidacion{color:#000;font-weight:700;margin-right:30px;text-align:center;width:40px}
+select{-moz-border-radius:5px;-moz-box-shadow:0 1px 0 #C6E2FF;-webkit-border-radius:5px;-webkit-box-shadow:0 1px 0 #C6E2FF2;background:0 color-stop(100%,#9FB6CD));background-color:#E6E6FA;border-radius:5px;color:#191970;font-family:sans-serif;font-size:14px;height:30px;padding:2px;text-shadow:0 -1px 0 #C6E2FF;text-transform:uppercase;width:140px}
+.recaps{border:1px solid #CCC;width:220px}
+.recaps !important caption{font-family:Verdana, Geneva, sans-serif;font-size:10px;font-weight:700}
+.recaps tr th{background-color:#b0c4dd;border:1px solid #CCC;font-size:10px}
+.recaps tr td{background-color:#FFF;border:1px solid #CCC;font-family:Verdana, Geneva, sans-serif;font-size:10px}
+#buscar{margin:10px auto 0;width:740px}
+#resumen{font-family:Verdana, Geneva, sans-serif;font-size:10px;importantwidth:400px;margin:10px auto 10px 20px}
+.resumen{width:400px}
+.botonpeq{width:50px}
+#export{background-color:#B0C4DD;border:1px solid #CCC;margin-left:10px;padding:4px;text-align:center;text-transform:capitalize;width:80px}
+#export:hover{background-color:#FFF;border:1px solid #CCC}
+#export a:hover{color:#F60}
+.listado{font-family:Verdana, Geneva, sans-serif;font-size:10px}
+.listado th{background-color:#b0c4dd;border:1px solid #CCC;color:#006;font-family:Verdana, Geneva, sans-serif;font-size:10px;text-transform:capitalize}
+.listado td{border:1px solid #CCC}
+#tiempo{color:#CCC;float:right;font-family:Verdana, Geneva, sans-serif;font-size:10px;width:300px}
+.col_izq{float:left;height:auto;margin-top:0;width:120px}
+.col_der{float:left;height:5px;margin-left:10px;width:900px}
+input::-webkit-input-placeholder,input:-moz-placeholder,#export a{color:#006}
+#info{min-height:70%;width:90%;float:left;margin:0 auto}
+.border0{border-style:none;padding:4px}
+#info #devoluciones #form1 table tr td{background-color:#FFF}
+#info{min-height: 70%;margin-top: 0px;margin-right: auto;margin-bottom: 0px;margin-left: auto;width: 90%;float: left;}
+.border0{padding: 4px;border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;}
+#info #devoluciones #form1 table tr td{background-color: #FFF;}
+footer{height:30px}

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_linea" value="name:id;datatype:int,name:nombre;datatype:string" />
+	<infoitem key="UD_inv" value="name:id;datatype:int,name:linea;datatype:int,name:nombre_linea;datatype:string,name:contenedor;datatype:string,name:tipo;datatype:string,name:estatus;datatype:string,name:condicion;datatype:string,name:buque;datatype:string,name:viaje;datatype:string,name:fdb;datatype:date,name:fdm;datatype:date,name:frd;datatype:date,name:precinto;datatype:string,name:bl;datatype:string,name:eir_r;datatype:int,name:patio;datatype:int,name:obs;datatype:blob,name:DIC;datatype:int,name:DIY;datatype:int" />
+</info>

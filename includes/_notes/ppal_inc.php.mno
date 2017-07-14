@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_totalgral" value="name:cantidad;datatype:int" />
+	<infoitem key="UD_tipocant" value="name:tipo;datatype:string,name:cantidad;datatype:int,name:teus;datatype:int" />
+	<infoitem key="UD_lineacant" value="name:nlinea;datatype:string,name:cantidad;datatype:int" />
+	<infoitem key="UD_condcant" value="name:nlinea;datatype:string,name:condicion;datatype:string,name:cantidad;datatype:int" />
+	<infoitem key="UD_vaciados" value="name:id;datatype:int,name:acta;datatype:int,name:linea;datatype:int,name:nlinea;datatype:string,name:idconsignatario;datatype:int,name:consignatario;datatype:string,name:contenedor;datatype:string,name:tipo;datatype:string,name:status;datatype:int,name:condicion;datatype:int,name:buque;datatype:string,name:viaje;datatype:string,name:fdb;datatype:date,name:fdm;datatype:date,name:frd;datatype:date,name:bl;datatype:string,name:precinto;datatype:string,name:eir_r;datatype:int,name:patio;datatype:int,name:obs;datatype:blob,name:vaciado;datatype:int,name:fvaciado;datatype:datetime" />
+	<infoitem key="UD_totalpatio" value="name:ubicacion;datatype:string,name:cantidad;datatype:int" />
+	<infoitem key="UD_teus" value="name:T_TEUS;datatype:real" />
+</info>

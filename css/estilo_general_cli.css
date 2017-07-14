@@ -1,0 +1,100 @@
+@charset utf-8;
+body{font-family:Verdana, Geneva, sans-serif;margin:0}
+#wrapper{
+	background: #FFF;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 30;
+	margin-left: auto;
+	min-width: 86%;
+}
+h2{
+	color: #27408B;
+	font-size: 24px;
+	text-indent: 10px;
+}
+#pietabla{font-size:12px}
+caption{font-size: 14px;color: #336;font-weight: bold;text-align: left;text-indent:10px;}
+a{color:#4682B4;font-size:12px;text-decoration:none}
+nav{margin-top:0}
+#gatein{-moz-border-radius:20px;-moz-box-shadow:0 0 8px #444;-webkit-border-radius:20px;-webkit-box-shadow:0 0 8px #444;background:#eee;border:1px solid #e1e1e1;border-radius:20px;margin:20px auto 10px;padding:30px;width:800px}
+legend{color:#445668;font-size:14px;font-weight:700;text-transform:uppercase}
+label{color:#104E8B;font-size:14px;margin:5px 25px 10px 5px;padding:2px;text-align:left;vertical-align:middle}
+input{-moz-border-radius:5px;-moz-box-shadow:0 1px 0 #C6E2FF;-webkit-border-radius:5px;-webkit-box-shadow:0 1px 0 #C6E2FF2;background:0 color-stop(100%,#9FB6CD));background-color:#E6E6FA;border-radius:5px;color:#006;font-family:sans-serif;font-size:14px;height:30px;margin:5px 5px 10px 0;padding:2px;text-shadow:0 -1px 0 #C6E2FF;text-transform:uppercase;width:140px}
+input[type=text]{margin-right:30px}
+.inputValidacion{color:#000;font-weight:700;margin-right:30px;text-align:center;width:40px}
+select{-moz-border-radius:5px;-moz-box-shadow:0 1px 0 #C6E2FF;-webkit-border-radius:5px;-webkit-box-shadow:0 1px 0 #C6E2FF2;background:0 color-stop(100%,#9FB6CD));background-color:#E6E6FA;border-radius:5px;color:#191970;font-family:sans-serif;font-size:14px;height:30px;padding:2px;text-shadow:0 -1px 0 #C6E2FF;text-transform:uppercase;width:140px}
+.recaps{border:1px solid #CCC;width:220px}
+.recaps !important caption{font-family:Verdana, Geneva, sans-serif;font-size:10px;font-weight:700}
+.recaps tr th{background-color:#b0c4dd;border:1px solid #CCC;font-size:10px}
+.recaps tr td{background-color:#FFF;border:1px solid #CCC;font-family:Verdana, Geneva, sans-serif;font-size:10px}
+#buscar{margin:10px auto 0;width:740px}
+#resumen{font-family: Verdana, Geneva, sans-serif;font-size: 10px;importantwidth: 400px;margin: 10px auto 10px 20px;}
+
+td[axis='contenedor']{text-align: left;}
+td[axis='tipo']{text-align: center;}
+td[axis='estatus']{text-align: center;}
+td[axis='condicion']{text-align: center;}
+td[axis='viaje']{text-align: center;}
+td[axis='eir']{text-align: center;}
+td[axis='cadena']{text-align: left;}
+td[axis='numero']{text-align:right;}
+td[axis='fecha']{text-align:center;}
+.resumen{width:400px}
+.botonpeq{width:50px}
+#export{background-color:#B0C4DD;border:1px solid #CCC;margin-left:10px;padding:4px;text-align:center;text-transform:capitalize;width:80px}
+#export:hover{background-color:#FFF;border:1px solid #CCC}
+#export a:hover{color:#F60}
+.listado{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	width: 98%;
+}
+.listado tr:nth-child(odd){background-color:#F8F8FF;color:#333333;}
+.listado tr:nth-child(even){background-color:#D1EEEE;color:#333333;}
+.listado tr:hover {
+	color: #006;
+	background-color: #87CEFA;
+	border: 1px solid #FC0;
+	cursor: pointer;
+}
+.listado th{
+	background-color: #b0c4dd;
+	border: 1px solid #CCC;
+	color: #006;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 10px;
+	text-transform: capitalize;
+	padding: 2px;
+	cursor: pointer;
+	background-image: url(icon-table-sort.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.listado th:hover{
+	color: #003;
+	background-color: #FFF;
+}
+.listado td{border:1px solid #CCC}
+#tiempo{color:#CCC;float:right;font-family:Verdana, Geneva, sans-serif;font-size:10px;width:300px}
+.col_izq{float:left;height:auto;margin-top:0;width:120px}
+.col_der{float:left;height:5px;margin-left:10px;width:900px}
+input::-webkit-input-placeholder,input:-moz-placeholder,#export a{color:#006}
+#info{min-height:70%;width:90%;float:left;margin:0 auto}
+.border0{border-style:none;padding:4px}
+#info #devoluciones #form1 table tr td{background-color:#FFF}
+#info{min-height: 70%;margin-top: 0px;margin-right: auto;margin-bottom: 0px;margin-left: auto;width: 90%;float: left;}
+.border0{padding: 4px;border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;}
+#info #devoluciones #form1 table tr td{background-color: #FFF;}
+footer{
+	width: 100%;
+	height: 20px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	color: #069;
+	background-color: #D1EEEE;
+	font-size: 12px;
+	text-indent: 5px;
+}

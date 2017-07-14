@@ -1,0 +1,35 @@
+Procedimiento para asignacion de equipos
+
+CREATE DEFINER=`imssisc`@`localhost` PROCEDURE `consulta_asignacion`(IN `varLinea` INT)
+	LANGUAGE SQL
+	NOT DETERMINISTIC
+	CONTAINS SQL
+	SQL SECURITY DEFINER
+	COMMENT ''
+BEGIN
+SELECT inventario.id, inventario.linea AS linea_id, lineas.nombre AS linea, inventario.contenedor, tequipos.tipo,  case `inventario`.`status` when 0 then 'VACIO' when 1 then 'FULL' end AS estatus,case `inventario`.`condicion` when 0 then 'DMG' when 1 then 'OPR1' when 2 then 'OPR2' when 3 then 'OPR3' end AS `condicion`, inventario.frd AS recepcion, inventario.eir_r AS eir,
+DATEDIFF(CURRENT_DATE,inventario.fdb) AS DIC, DATEDIFF(CURRENT_DATE,inventario.frd) AS DIY
+FROM inventario, tequipos, lineas
+WHERE inventario.c = 0 
+AND inventario.`delete` = 0
+AND inventario.tcont = tequipos.id
+AND inventario.linea = lineas.id
+AND inventario.condicion > 0
+AND inventario.linea = varLinea
+ORDER BY inventario.condicion;
+END
+
+
+tabla para las asignaciones
+CREATE TABLE `asignaciones` (
+	`id` INT(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT,
+	`equinv` INT(10) UNSIGNED ZEROFILL NOT NULL DEFAULT '0000000000',
+	`booking` INT(10) UNSIGNED NOT NULL DEFAULT '0',
+	`fecha` DATE NOT NULL,
+	`cliente` INT(10) UNSIGNED NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	INDEX `equinv` (`equinv`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+ROW_FORMAT=DEFAULT

@@ -1,0 +1,50 @@
+# --------------------------------------------------------
+# Host:                         127.0.0.1
+# Server version:               5.1.41
+# Server OS:                    Win32
+# HeidiSQL version:             6.0.0.3603
+# Date/time:                    2011-05-12 11:30:59
+# --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+# Dumping database structure for imssisc_desarrollo
+CREATE DATABASE IF NOT EXISTS `imssisc_desarrollo` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `imssisc_desarrollo`;
+
+
+# Dumping structure for view imssisc_desarrollo.existencia
+# Creating temporary table to overcome VIEW dependency errors
+CREATE TABLE `existencia` (
+	`id` INT(10) UNSIGNED NOT NULL DEFAULT '0',
+	`acta` INT(6) UNSIGNED NOT NULL DEFAULT '',
+	`linea` INT(4) UNSIGNED NOT NULL DEFAULT '',
+	`nlinea` VARCHAR(80) NOT NULL DEFAULT '' COMMENT 'Nombre de la linea' COLLATE 'utf8_general_ci',
+	`idconsignatario` INT(4) UNSIGNED NOT NULL DEFAULT '0',
+	`consignatario` VARCHAR(45) NOT NULL DEFAULT '' COMMENT 'Nombre de la empresa' COLLATE 'utf8_general_ci',
+	`contenedor` VARCHAR(11) NOT NULL DEFAULT '' COLLATE 'utf8_general_ci',
+	`tipo` VARCHAR(13) NOT NULL DEFAULT '' COMMENT 'Tipo de equipo' COLLATE 'utf8_general_ci',
+	`status` INT(1) UNSIGNED NOT NULL DEFAULT '' COMMENT 'full, empty',
+	`condicion` INT(1) UNSIGNED NOT NULL DEFAULT '' COMMENT 'opr o dmg',
+	`buque` VARCHAR(45) NOT NULL DEFAULT '' COMMENT 'Nombre del buque' COLLATE 'utf8_general_ci',
+	`viaje` VARCHAR(5) NOT NULL DEFAULT '' COMMENT 'Viaje' COLLATE 'utf8_general_ci',
+	`fdb` DATE NOT NULL DEFAULT '' COMMENT 'fecha descarga del buque',
+	`frd` DATE NOT NULL DEFAULT '' COMMENT 'fecha de recepcion iims',
+	`bl` VARCHAR(15) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`precinto` VARCHAR(15) NULL DEFAULT NULL COMMENT 'numero de precinto' COLLATE 'utf8_general_ci',
+	`eir_r` INT(6) UNSIGNED NOT NULL DEFAULT '' COMMENT 'eir iims',
+	`patio` VARCHAR(25) NULL DEFAULT NULL COMMENT 'patio' COLLATE 'utf8_general_ci',
+	`obs` TEXT NULL DEFAULT NULL COMMENT 'observaciones' COLLATE 'utf8_general_ci'
+) ENGINE=MyISAM;
+
+
+# Dumping structure for view imssisc_desarrollo.existencia
+# Removing temporary table and create final VIEW structure
+DROP TABLE IF EXISTS `existencia`;
+CREATE ALGORITHM=UNDEFINED DEFINER=`imssisc`@`localhost` SQL SECURITY DEFINER VIEW `existencia` AS select `inventario`.`id` AS `id`,`inventario`.`acta` AS `acta`,`inventario`.`linea` AS `linea`,`lineas`.`nombre` AS `nlinea`,`consignatario`.`id` AS `idconsignatario`,`consignatario`.`nombre` AS `consignatario`,`inventario`.`contenedor` AS `contenedor`,`tequipos`.`tipo` AS `tipo`,`inventario`.`status` AS `status`,`inventario`.`condicion` AS `condicion`,`buques`.`nombre` AS `buque`,`viajes`.`viaje` AS `viaje`,`inventario`.`fdb` AS `fdb`,`inventario`.`frd` AS `frd`,`inventario`.`bl` AS `bl`,`inventario`.`precinto` AS `precinto`,`inventario`.`eir_r` AS `eir_r`,`inventario`.`patio` AS `patio`,`inventario`.`obs` AS `obs` from (((((`inventario` join `tequipos`) join `buques`) join `viajes`) join `lineas`) join `consignatario`) where ((`inventario`.`c` = 0) and (`inventario`.`delete` = 0) and (`tequipos`.`id` = `inventario`.`tcont`) and (`buques`.`id` = `inventario`.`buque`) and (`viajes`.`id` = `inventario`.`viaje`) and (`lineas`.`id` = `inventario`.`linea`) and (`consignatario`.`id` = `inventario`.`consignatario`)) order by `inventario`.`frd`;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

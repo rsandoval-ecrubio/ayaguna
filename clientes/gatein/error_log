@@ -1,0 +1,24 @@
+[14-Nov-2016 18:33:23 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[14-Nov-2016 18:33:23 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[04-Jan-2017 11:45:35 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[04-Jan-2017 11:45:35 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[09-Jan-2017 16:13:39 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[09-Jan-2017 16:13:39 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[13-Mar-2017 13:12:56 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[13-Mar-2017 13:12:56 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[27-Mar-2017 13:35:37 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[27-Mar-2017 13:35:37 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[03-Apr-2017 11:21:31 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[03-Apr-2017 11:21:31 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[24-May-2017 09:30:10 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[24-May-2017 09:30:10 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[29-May-2017 10:03:18 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[29-May-2017 10:03:18 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[31-May-2017 16:14:24 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[31-May-2017 16:14:24 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[21-Jun-2017 12:26:18 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[21-Jun-2017 12:26:18 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[21-Jun-2017 17:21:02 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[21-Jun-2017 17:21:02 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21
+[22-Jun-2017 10:18:32 America/Caracas] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appstc'@'localhost' to database 'USERDB' in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 19
+[22-Jun-2017 10:18:32 America/Caracas] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/appstc/public_html/ayaguna/clases/class.MySQL.php on line 21

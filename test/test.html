@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AYAGUNA</title>
+<script language="javascript">
+function reeferTemp(){
+	var dmg = document.getElementById('dano').value;
+	if(dmg == 'REF'){
+		document.getElementById('divtemp').style.display="inline";
+		document.getElementById('side').style.display="none";
+	}else{
+		document.getElementById('divtemp').style.display="none";
+		document.getElementById('side').style.display="inline";
+	}
+}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <label for="dano">Daño</label>
+  <select name="dano" id="dano" onchange="reeferTemp();">
+    <option value="0">Seleccione</option>
+    <option value="D">Golpe</option>
+    <option value="H">Agujero</option>
+    <option value="C">Roto</option>
+    <option value="B">Rozadura</option>
+    <option value="M">Falla</option>
+    <option value="BR">Quebradura</option>
+    <option value="BAT">Bateria</option>
+    <option value="REF">Refrigeracion</option>
+  </select>
+  <div id="divtemp" style="display:none">
+    <label for="temp">Temperatura</label>
+    <input name="temp" type="text" id="temp" size="2" maxlength="4" />
+  </div>
+  <div id="side" style="display:inline">
+  <label for="lado">Lado</label>
+  <select name="lado" id="lado" onchange="nopanel()">
+    <option>Seleccione</option>
+    <option value="I">Izquierdo</option>
+    <option value="R">Derecho</option>
+    <option value="FI">Frente I</option>
+    <option value="FD">Frente D</option>
+    <option value="REI">Detras I</option>
+    <option value="RED">Detras D</option>
+    <option value="T">Arriba</option>
+    <option value="B">Abajo</option>
+  </select></div>
+</form>
+</body>
+</html>
